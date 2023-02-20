@@ -1,0 +1,145 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: white;
+}
+.word{
+  width: 80%;
+}
+
+.homepage {
+  float: left;
+  font-size: 25px; 
+}
+
+.fontMenu {
+   font-size: 22px;
+}
+
+.section {
+  padding-left: 150px; 
+  padding-top: 30px; 
+  width: 100%;
+}
+.text {
+  display: flex;
+  justify-content: space-between;
+  width:80%;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.black{
+  width:100%;
+  height: 30%;
+  background-color: black;
+  border: none;
+  color: aliceblue;
+  font-weight: 800;
+}
+.cont{
+  display: flex;
+  justify-content: center;
+}
+.jpg{
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+  
+  
+}
+#shirt{
+  position: relative;
+}
+.imgs{
+  display: flex;
+  width: 80%;
+  
+}
+.shoe{
+  flex: 2;
+  margin: 10px;
+}
+.shirtpant{
+  flex:1;
+  display: flex;
+  flex-direction: column;
+}
+
+.shirt{
+ 
+  margin: 10px;
+  flex: 1;
+  position: relative;
+
+
+}
+
+.top{
+  background-color:white;
+  font-weight: 700;
+  padding: 10px;
+  position: absolute;
+  top:20px;
+}
+.bottom{
+  
+
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  width:100%;
+  height: 10%;
+  padding: 10px;
+  
+
+
+  
+}
+.mimgs{
+  display: flex;
+  justify-content: center;
+}
+.pant{
+  margin: 10px;
+  flex: 1;
+}
+#add{
+  color: black;
+  background-color: white;
+  border: none;
+  font-weight: 900;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+  @media(max-width:700px){
+    .imgs{
+      display: block;
+    }
+  }
